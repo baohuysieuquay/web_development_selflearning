@@ -1,0 +1,30 @@
+p {
+  width: 100px;
+  background: red;
+  font-size: 85px;
+  text-align: center;
+  margin: 0px;
+}
+
+#p2 {
+  /*
+    transform: translateX(50px);
+    transform: translateY(50px);
+    transform: translate(50px, 50px);
+    transform: rotateX(180deg); or Y/Z
+    transform: scaleX(2); or Y
+    transform: scale(2, 2);
+    transform: skewX(45deg) or Y
+    */
+  -webkit-transform: matrix(0.5, 1, 1, 0.5, 50, 50);
+          transform: matrix(0.5, 1, 1, 0.5, 50, 50);
+  /*
+    scaleX(),
+    skewY(),
+    skewX(),
+    scaleY(),
+    translateX(),
+    translateY()
+    */
+}
+/*# sourceMappingURL=style.css.map */

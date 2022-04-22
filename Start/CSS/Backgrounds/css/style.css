@@ -1,0 +1,19 @@
+html {
+  /*background-color: blue;/*
+    background: linear-gradient(red, blue);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;*/
+  background-image: url("/images/1030509.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+h1 {
+  background: -webkit-gradient(linear, left top, right top, from(red), color-stop(orange), color-stop(yellow), color-stop(green), color-stop(blue), color-stop(indigo), to(violet));
+  background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+}
+/*# sourceMappingURL=style.css.map */

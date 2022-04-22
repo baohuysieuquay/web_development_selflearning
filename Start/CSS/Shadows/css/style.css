@@ -1,0 +1,20 @@
+h1 {
+  border: 1px solid;
+  width: 300px;
+  padding: 50px;
+  text-align: center;
+  color: white;
+  background-color: black;
+  border-color: black;
+  border-radius: 100px;
+  text-shadow: 2.5px 2.5px 5px red, 0px -3px 5px yellow;
+  /*
+        horizontal (px)
+        vertical (px)
+        blur (px)
+        color (name, rgb, hex)
+    */
+  -webkit-box-shadow: 10px 10px 5px grey;
+          box-shadow: 10px 10px 5px grey;
+}
+/*# sourceMappingURL=style.css.map */

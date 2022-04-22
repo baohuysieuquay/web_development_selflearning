@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="index.html">
+        <label for="first_name">First Name: &nbsp;</label>
+        <input type="text" id="first_name" name="first_name" placeholder="Gia Bao">
+        <br> <br>
+
+        <label for="last_name">Last Name: &nbsp;</label>
+        <input type="text" id="last_name" name="last_name" placeholder="Nguyen">
+
+        <br> <br>
+
+        <!--<input type="reset">
+
+        <br> <br>
+
+        <input type="submit"> -->
+
+        <label for="title">Title: &nbsp</label>
+
+        <label for="Mr.">Mr.</label>
+        <input type="radio" value="Mr." id="Mr." name="title">
+        <label for="Ms.">Ms.</label>
+        <input type="radio" value="Ms." id="Ms." name="title">
+        <label for="Miss">Miss</label>
+        <input type="radio" value="Miss" id="Miss" name="title">
+        <label for="PhD">PhD</label>
+        <input type="radio" value="PhD" id="PhD" name="title">
+
+        <br> <br>
+
+        <label for="payment">Payment: &nbsp</label>
+
+        <select name="payment" id="payment">
+            <option value="visa">Visa</option>
+            <option value="mastercard">Mastercard</option>
+            <option value="check">Check</option>
+            <option value="giftcard">Giftcard</option>
+        </select>
+
+        <br> <br>
+
+        <label for="email">Email: &nbsp;</label>
+        <input type="email" id="email" name="email" placeholder="giabaonguyen@gmail.com">
+
+        <br> <br>
+
+        <label for="birthday">Birthday: &nbsp;</label>
+        <input type="date" id="birthday" name="birthday">
+
+        <br> <br>
+        
+        <label for="quantity">Quantity: &nbsp;</label>
+        <input type="number" id="quantity" name="quantity" min="0" max="99" value="0">
+
+        <br> <br>
+
+        <label for="phone">Phone #: &nbsp;</label>
+        <input type="tel" id="phone" name="phone" maxlength="12">
+
+        <br> <br>
+
+        <label for="pass">Pass: &nbsp;</label>
+        <input type="password" id="pass" name="pass" maxlength="15" placeholder="Max 15 characters">
+
+        <br> <br>
+
+        <label for="rate">Rate us: &nbsp;</label>
+        1 &nbsp;<input type="range" step="25" value="50">&nbsp; 5
+
+        <br> <br>
+
+        <label for="subscribe">Subscribe: &nbsp;</label>
+        <input type="checkbox" id="subscribe" name="subscribe">
+
+        <br> <br>
+
+        <label for="myfile">Upload a file: &nbsp;</label>
+        <input type="file" id="myfile" name="myfile" accept=".png">
+
+        <br> <br>
+
+        <input type="reset"> &nbsp; &nbsp; <input type="submit">
+    </form>
+</body>
+</html>

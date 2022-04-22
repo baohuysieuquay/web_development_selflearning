@@ -1,0 +1,24 @@
+ul {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden;
+  background-color: #444444;
+  border-radius: 100px;
+}
+
+li a {
+  float: left;
+  display: block;
+  color: white;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  border-right: 1px solid black;
+  min-width: 60px;
+}
+
+a:hover {
+  background-color: #222222;
+}
+/*# sourceMappingURL=style.css.map */
